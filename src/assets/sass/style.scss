@@ -1,0 +1,111 @@
+@import "variables";
+@import "mixins";
+
+
+body {
+    font-family: $roboto_c;
+    font-size: $regular_font_size;
+    line-height: $default_line_height;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background: $white;
+}
+
+a {
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:focus {
+        outline: 0;
+        text-decoration: underline;
+    }
+}
+
+p {
+    margin: 0 0 .5em;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+
+/* Vendor libs
+==========================*/
+@import "vendor/_normalize";
+@import "fontawesome/font-awesome";
+@import "vendor/slick";
+@import "vendor/animate";
+@import "vendor/typed";
+@import "vendor/magnifier";
+@import "vendor/sortable";
+@import "vendor/rangeslider";
+@import "vendor/scrollbar";
+@import "vendor/modal";
+
+
+
+
+/* Import blocks
+==========================*/
+@import "blocks/grid";
+@import "blocks/form";
+@import "blocks/switcher";
+@import "blocks/checkbox";
+@import "blocks/radio";
+@import "blocks/btn";
+@import "blocks/dropdown";
+@import "blocks/input";
+@import "blocks/textarea";
+@import "blocks/label";
+@import "blocks/benefits";
+@import "blocks/reviews";
+@import "blocks/comments";
+@import "blocks/breadcrumbs";
+@import "blocks/pagination";
+@import "blocks/mark";
+@import "blocks/alert";
+@import "blocks/list";
+@import "blocks/select";
+@import "blocks/table";
+@import "blocks/feed";
+@import "blocks/video";
+@import "blocks/tabs";
+@import "blocks/accordion";
+@import "blocks/social";
+@import "blocks/navbar";
+@import "blocks/statistic";
+@import "blocks/prices";
+@import "blocks/code";
+@import "blocks/snippet";
+@import "blocks/img";
+@import "blocks/filter";
+@import "blocks/progress";
+@import "blocks/vr-text";
+@import "blocks/separator";
+@import "blocks/footer";
+@import "blocks/products";
+@import "blocks/product";
+@import "blocks/shop-cart";
+@import "blocks/intro";
+@import "blocks/rating";
+@import "blocks/steps";
+@import "blocks/flags";
+@import "blocks/masonry";
+@import "blocks/team";
+@import "blocks/tip";
+@import "blocks/loader";
+@import "blocks/google-map";
+
+
+
+/* Helpers (must be as last import to override rules when use)
+==========================*/
+@import "_helpers";

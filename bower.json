@@ -1,0 +1,25 @@
+{
+  "name": "devTemplate",
+  "description": "",
+  "author": "RFCL",
+  "devDependencies": {
+    "jquery": "^3.0.0",
+    "bootstrap-sass": "^3.3.7",
+    "slick-carousel": "slick.js#^1.6.0",
+    "jQuery.dotdotdot": "https://github.com/FrDH/jQuery.dotdotdot.git#^1.8.3",
+    "chart.js": "^2.3.0",
+    "wow": "wow.js#^1.1.2",
+    "masonry": "https://github.com/desandro/masonry.git#^4.1.1",
+    "jquery-sticky": "https://github.com/garand/sticky.git#^1.0.3",
+    "waypoints": "https://github.com/imakewebthings/waypoints.git#^4.0.1",
+    "jquery.counterup": "https://github.com/dmitryvalak/jquery.counterup.git#^2.0.5",
+    "typed.js": "https://github.com/mattboldt/typed.js.git#^1.1.4",
+    "Magnifier.js": "https://github.com/mark-rolich/Magnifier.js.git",
+    "Event.js": "https://github.com/mark-rolich/Event.js.git",
+    "sortable": "https://github.com/HubSpot/sortable.git#^0.8.0",
+    "hint.css": "https://github.com/chinchang/hint.css.git#^2.4.1",
+    "rangeslider.js": "https://github.com/andreruffert/rangeslider.js.git#^2.2.1",
+    "malihu-custom-scrollbar-plugin": "https://github.com/malihu/malihu-custom-scrollbar-plugin.git#^3.1.5",
+    "remodal": "https://github.com/VodkaBears/Remodal.git#^1.1.0"
+  }
+}

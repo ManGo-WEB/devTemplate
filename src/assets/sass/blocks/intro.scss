@@ -1,0 +1,36 @@
+.intro {
+    display: table;
+    width: 100%;
+    height: $intro-height;
+    padding: $intro-padding;
+
+    background: url("#{$img}intro_1.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro__content {
+    display: table-cell;
+    vertical-align: $intro-content-vertical-align;
+    padding: $intro-content-padding;
+}
+
+.intro__title {
+    margin: $intro-title-margin;
+
+    font-size: $intro-title-font-size;
+    line-height: $intro-title-line-height;
+    color: $intro-title-color;
+    font-weight: $intro-title-weight;
+}
+
+.intro__text {
+    margin-bottom: $intro-text-margin-bottom;
+
+    font-size: $intro-text-font-size;
+    line-height: $intro-text-line-height;
+    color: $intro-text-color;
+
+    p {
+        margin: $intro-text-p-margin;
+    }
+}

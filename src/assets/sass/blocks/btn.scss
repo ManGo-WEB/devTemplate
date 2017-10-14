@@ -1,0 +1,90 @@
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: $btn-padding;
+    margin-bottom: $btn-margin-bottom;
+
+    text-decoration: none;
+    border: 0;
+
+    background-color: $btn-default-bg;
+
+    color: $btn-default-color;
+    font-family: $btn-font-family;
+    font-size: $btn-font-size;
+    line-height: $btn-line-height;
+    text-align: $btn-align;
+    cursor: $btn-cursor;
+
+    transition: background-color .1s linear, color .1s linear, border-color .1s linear;
+
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+
+    &:focus {
+        background-color: darken($btn-default-bg, 3%);
+        outline: 0;
+    }
+
+    &:hover {
+        background-color: darken($btn-default-bg, 5%);
+    }
+
+    &:active {
+        background-color: darken($btn-default-bg, 7%);
+    }
+
+    /* Colors */
+    @include btn;
+
+    /* Outline */
+    @include btn-o;
+
+    /* Inverted Outline */
+    @include btn-i;
+
+    /* Vertical Gradient */
+    @include btn-gradient(vertical);
+
+    /* Horizontal Gradient */
+    @include btn-gradient(horizontal);
+
+
+    /* Sizes */
+    &--xs {
+        min-height: 0;
+        font-size: $btn-xs-font-size;
+    }
+
+    &--s {
+        min-height: 0;
+        font-size: $btn-s-font-size;
+    }
+
+    &--m    { font-size: $btn-m-font-size; }
+    &--l    { font-size: $btn-l-font-size; }
+    &--xl   { font-size: $btn-xl-font-size; }
+    &--xxl  { font-size: $btn-xxl-font-size; }
+    &--full {
+        display: block;
+        width: 100%;
+    }
+
+
+    /* Styling */
+    &--rounded { border-radius: $btn-rounded; }
+    &--ellipse { border-radius: $btn-ellipse; }
+    &--shadow  { box-shadow: $btn-shadow; }
+
+    &--icon-before {
+        i { margin-right: $btn-icon-margin; }
+    }
+
+    &--icon-after {
+        i { margin-left: $btn-icon-margin; }
+    }
+}
+
+
